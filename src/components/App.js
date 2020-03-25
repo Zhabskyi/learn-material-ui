@@ -12,12 +12,21 @@ function App() {
         <Switch>
           <Route exact path='/' component={() => <div>Hello!</div>} />
           <Route exact path='/services' component={() => <div>Hello!</div>} />
-          <Route exact path='/customsoftware' component={() => <div>Hello!</div>} />
+          <Route
+            exact
+            path='/customsoftware'
+            component={() => <div>Hello!</div>}
+          />
           <Route exact path='/mobileapps' component={() => <div>Hello!</div>} />
           <Route exact path='/websites' component={() => <div>Hello!</div>} />
           <Route exact path='/revolution' component={() => <div>Hello!</div>} />
           <Route exact path='/about' component={() => <div>Hello!</div>} />
-          <Route exact path='/estimate' component={() => <div>Hello!</div>} />
+          <Route exact path='/contact' component={() => <div>contact!</div>} />
+          <Route
+            exact
+            path='/estimate'
+            component={() => <div>Estimate!</div>}
+          />
         </Switch>
       </BrowserRouter>
     </ThemeProvider>
